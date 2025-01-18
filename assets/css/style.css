@@ -1,0 +1,230 @@
+/* header  */
+.header .container-fluid {
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+}
+
+.header .container {
+  min-height: 60px;
+  background: #fff;
+  border-radius: 60px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  font-size: 18px;
+}
+
+/* hero */
+.hero {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  height: 100vh;
+  min-height: fit-content;
+  padding-top: 100px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero span {
+  color: var(--accent-color);
+}
+
+.hero .btn-1 {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  color: var(--accent-color);
+}
+
+.hero .btn-2,
+.hero .btn-3 {
+  font-size: 18px;
+}
+
+.hero .btn-3 {
+  background: transparent !important;
+  color: var(--default-color);
+}
+
+.hero .btn-3:hover {
+  color: var(--accent-color);
+}
+
+.hero .space {
+  padding-right: 10px;
+}
+
+.hero-top {
+  position: relative;
+}
+
+.hero-top .content-right div,
+.hero-top .content-right h1,
+.hero-top .content-right p,
+.hero-top .content-right .btn-1 {
+  margin-bottom: 3rem;
+}
+
+.hero-top .badge {
+  background: var(--background-color);
+  position: absolute;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+  bottom: 5%;
+  right: 5%;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.hero-top .badge img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.hero-top .badge .more {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+
+.hero-top .badge span {
+  color: var(--background-color);
+}
+
+.hero-top .badge div {
+  margin: 10px 0;
+}
+
+.hero-bottom {
+  min-height: 120px;
+  background: var(--background-color);
+  border-radius: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 40px 0;
+}
+
+.hero-bottom .col-3 {
+  padding: 30px;
+}
+
+.hero-bottom .icon {
+  background: color-mix(in srgb, var(--accent-color), transparent 95%);
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.hero-bottom .stats-content {
+  padding: 0;
+  margin-left: 20px;
+}
+
+.hero-bottom .stats-content h4 {
+  font-size: 1.2rem;
+}
+
+.hero-bottom .stats-content p {
+  margin: 0;
+}
+
+.hero-bottom a:hover {
+  background: var(--accent-color);
+  color: var(--background-color);
+}
+
+/* about */
+.about span {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.about h2 {
+  margin: 20px 0;
+}
+
+.about li {
+  margin-bottom: 16px;
+}
+
+.about li i {
+  color: var(--accent-color);
+}
+
+.about .contact img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.about .contact .info {
+  margin-left: 10px;
+}
+
+.about .contact .item-1 p {
+  margin: 0;
+}
+
+.about .contact .item-2 {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+}
+
+.about .contact .item-2 i {
+  font-size: 30px;
+  color: var(--accent-color);
+
+}
+
+.about .contact .item-2 div {
+  margin-left: 10px;
+}
+
+.about .contact .item-2 div p {
+  margin-bottom: 0
+}
+
+.about .contact .item-2 div span {
+  color: var(--default-color);
+}
+
+.about .image {
+  position: relative;
+}
+
+.about .image .main {
+  border-radius: 20px;
+}
+
+.about .image .small {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 45%;
+  border: 8px solid var(--surface-color);
+  border-radius: 20px;
+}
+
+.about .image .badge {
+  position: absolute;
+  min-width: 200px;
+  min-height: 100px;
+  background: var(--accent-color);
+  border-radius: 10px;
+  bottom: 5%;
+  right: 5%;
+  padding: 0 15px;
+}
+
+.about .image .badge span {
+  color: var(--background-color);
+}
